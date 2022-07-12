@@ -4,4 +4,18 @@
  git config --global user.name "fengfeng-vc"
  git config --global user.email "1046265988@qq.com"（邮箱与github创建的邮箱一致）
   ssh-keygen -t rsa -C "1046265988@qq.com"（创建ssh秘钥，再存放到github中）
+git clone命令，clone以git为前缀的链接
+git status 查看仓库状态
+git add 添加文件到暂存区并跟踪
+git reset -- [文件名] 将暂存区文件删除
+git diff 查看被跟踪文件的修改详情
+
+git commit 命令把暂存区的修改提交到版本区，生成一个新的版本
+
+git log 查看提交日志
+git log [分支名] 查看某分支的提交历史，不写分支名查看当前所在分支
+git log --oneline 一行显示提交历史
+git log -n 其中 n 是数字，查看最近 n 个提交
+git log --author [贡献者名字] 查看指定贡献者的提交记录
+git log --graph 图示法显示提交历史
 
