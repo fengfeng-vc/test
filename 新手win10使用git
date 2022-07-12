@@ -1,0 +1,7 @@
+下载git
+注册github，创建repository
+输入git命令
+ git config --global user.name "fengfeng-vc"
+ git config --global user.email "1046265988@qq.com"（邮箱与github创建的邮箱一致）
+  ssh-keygen -t rsa -C "1046265988@qq.com"（创建ssh秘钥，再存放到github中）
+
