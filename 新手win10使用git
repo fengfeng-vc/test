@@ -30,3 +30,6 @@ git reset --soft HEAD^退回最近一次，soft软退回，hard硬退回
 git reset --soft HEAD~n退回n次
 git reflog查看每次版本变化
 git reset --hard [版本号]退回指定版本
+
+git stash会把所有未提交的修改（包括暂存的和非暂存的）都保存起来，用于后续恢复当前工作目录。
+git stash apply将以前一半的工作应用回来
