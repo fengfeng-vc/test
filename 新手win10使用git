@@ -31,5 +31,6 @@ git reset --soft HEAD~n退回n次
 git reflog查看每次版本变化
 git reset --hard [版本号]退回指定版本
 
+远程仓库被修改过后，无法push，需要先pull，如果有内容未提交（不想在pull后此内容被删除），可以使用stash命令保存，再pull
 git stash会把所有未提交的修改（包括暂存的和非暂存的）都保存起来，用于后续恢复当前工作目录。
 git stash apply将以前一半的工作应用回来
