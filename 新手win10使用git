@@ -25,3 +25,8 @@ git config -l查看配置信息
 git branch -avv，它用来查看全部分支信息
 
 git push将本地仓库推送（替代）到远程仓库
+退回提交
+git reset --soft HEAD^退回最近一次，soft软退回，hard硬退回
+git reset --soft HEAD~n退回n次
+git reflog查看每次版本变化
+git reset --hard [版本号]退回指定版本
